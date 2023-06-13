@@ -44,9 +44,40 @@ enum Day{
  saturday,sunday,monday,tusday,wednesday,tursday,friday
   }
 ```
-
-
-
+---
+### 15-video
+```
+ double avg = 77;
+  
+  if(avg >= 60){
+    print('Pass');
+  }else if(avg >= 70){
+    print('good');
+  }else if(avg >= 80){
+    print('v.good');
+  }else if(avg >= 90){
+    print('Exellent');
+  }
+```
+```
+double avg = 50;
+  
+  if(avg >= 60 && avg<70){
+    print('Pass');
+  }else if(avg >= 70 && avg<80){
+    print('good');
+  }else if(avg >= 80 && avg<90){
+    print('v.good');
+  }else if(avg >= 90 && avg<=100){
+    print('Exellent');
+  }else if(avg >=0 && avg<60){
+    print('failed');
+  }else{
+    print('Error Value');
+  }
+  ```
+  ---
+  
 
 
 
