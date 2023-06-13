@@ -197,7 +197,11 @@ for(int i=0;i<20;i++){
 ```
 ---
 ### 19-video
-
+```
+  int index = 0;
+  print(index++);
+  print(index);
+  ```
 
 
 
