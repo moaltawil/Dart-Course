@@ -26,8 +26,13 @@ print('value: ${value.runtimeType}');
   num grade =1.5;
 print('grade type: ${grade.runtimeType}');
 ```
-
-
+---
+### 12-video
+```
+dynamic value = 10;
+print('value:' + value.toString());
+```
+---
 
 
 
