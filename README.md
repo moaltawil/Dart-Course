@@ -33,8 +33,17 @@ dynamic value = 10;
 print('value:' + value.toString());
 ```
 ---
+### 14-video
+```
+void main() {           
+   Day today = Day.monday;
+print ('Today: ${(today.index)}');
+}
 
-
+enum Day{
+ saturday,sunday,monday,tusday,wednesday,tursday,friday
+  }
+```
 
 
 
