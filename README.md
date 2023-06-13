@@ -77,7 +77,54 @@ double avg = 50;
   }
   ```
   ---
+  ### 16-video
   
+```
+String gender = 'M';
+  
+  switch(gender){
+    case 'M':
+    case 'm':
+      print('Male');
+      break;
+      
+    case 'F':
+    case 'f':
+      print('Female');
+      break;
+      
+    default:
+      print('ERROR VALUE');
+      break;
+  }
+```
+
+```
+String gender = 'M';
+  
+  switch(gender){
+    case 'M':
+    case 'm':
+      print('Male');
+      continue Male;
+      
+    case 'F':
+    case 'f':
+      print('Female');
+      break;
+      
+      Male:
+    case 'Male':
+      print('Mr:name');
+      break;
+      
+    default:
+      print('ERROR VALUE');
+      break;
+  }
+```
+---
+
 
 
 
