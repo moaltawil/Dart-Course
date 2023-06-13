@@ -188,6 +188,15 @@ double avg = 50;
   String statuse = graduated ? 'Graduated' : 'Not Graduated';
   print('Statuse: $statuse');
  ```
+---
+### 18-video
+```
+for(int i=0;i<20;i++){
+  print('Value $i');
+}
+```
+---
+### 19-video
 
 
 
