@@ -124,6 +124,52 @@ String gender = 'M';
   }
 ```
 ---
+### 17-video
+> Old Version In Dart **'It was without default with num'**
+```
+ num avg = 50;
+  
+  switch(avg){
+    case 50:
+      print('50');
+      break;
+      
+    case 51:
+      print('51');
+      break;
+  }
+
+```
+> new Version In Dart **'must be default with num'**
+```
+num avg = 50;
+
+  switch (avg) {
+    case 50:
+      print('The value is 50');
+      break;
+    case 51:
+      print('The value is 51');
+      break;
+    default:
+      print('The value is something else');
+  }
+```
+> Old Version In Dart **'double was rejected'** but in a new Version In Dart **'double are allowed'**
+```
+double avg = 50;
+
+  switch (avg) {
+    case 50:
+      print('The value is 50');
+      break;
+    case 51:
+      print('The value is 51');
+      break;
+
+  }
+```
+---
 
 
 
