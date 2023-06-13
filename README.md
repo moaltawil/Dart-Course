@@ -155,7 +155,7 @@ num avg = 50;
       print('The value is something else');
   }
 ```
-> Old Version In Dart **'double was rejected'** but in a new Version In Dart **'double are allowed'**
+> Old Version In Dart **'double was rejected'** but in a new Version In Dart **'double are allowed!'**
 ```
 double avg = 50;
 
@@ -169,8 +169,25 @@ double avg = 50;
 
   }
 ```
----
+```
+ bool graduated = false;
 
+  switch (graduated) {
+    case true:
+      print('Graduated');
+      break;
+      
+    case false:
+      print('Not Graduated');
+      break;
+
+  }
+  ```
+ ```
+   bool graduated = true;
+  String statuse = graduated ? 'Graduated' : 'Not Graduated';
+  print('Statuse: $statuse');
+ ```
 
 
 
