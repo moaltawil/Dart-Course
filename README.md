@@ -202,6 +202,56 @@ for(int i=0;i<20;i++){
   print(index++);
   print(index);
   ```
-
+  ---
+  ### 20-video
+  ```
+  int num1=10;
+  int num2=20;
+  int sum = num1+num2;
+  print(sum);
+  ```
+  ```
+  int num1=10;
+  int num2=20;
+  num1+=num2;
+  print(num1);
+  ```
+  
+  ```
+   for(int i=0;i<20;i+=2){
+    print('Value $i');
+  }
+  ```
+  ```
+   for(int i=20;i>=0;i--){
+    print('Value $i');
+  }
+  ```
+  ```
+  for(int i=0;i<20;i++){
+    if(i==5){
+      continue;
+    }
+    print('Value $i');
+  }
+  ```
+  ```
+  for(int i=0;i<20;i++){
+    if(i %2 ==0){
+       print('$i is even');
+    }
+  
+  }
+  ```
+  ```
+   for(int i=0;i<20;i++){
+    if(i %2 !=0){
+     continue;
+    }
+   print('$i is even');
+  }
+  ```
+  
+  ---
 
 
