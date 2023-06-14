@@ -286,8 +286,22 @@ while(counter<10){
   
 ---
   ### 23-video
+  ```
+  List values =['b',5,true,5];
+  print(values);
+  ```
+  ```
+  List<String> names =['b','k'];
+  print(names);
+  ```
 
 ---
+
+  ### 24-video
+  ```
+  
+  ```
+  ---
 
 
 
