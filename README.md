@@ -277,8 +277,16 @@ while(counter<10){
   
 ---
   ### 22-video
+  ```
+  int counter = 0;
+  do{
+    print('We are Here: $counter');
+  }while(counter <= -1000);
+  ```
   
-  
+---
+  ### 23-video
+
 ---
 
 
