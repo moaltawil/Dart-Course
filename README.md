@@ -299,6 +299,20 @@ while(counter<10){
 
   ### 24-video
   ```
+  List<String> names = List.filled(10,'names');
+  print(names);
+  ```
+  ```
+  List<String> names = List.filled(10,'names',growable:true);
+  names.add('kk');
+  print(names);
+  ```
+  
+  ---
+  
+  ### 25-video
+  
+  ```
   
   ```
   ---
