@@ -262,8 +262,24 @@ for(int i=0;i<20;i++){
     
   }
   ```
+  ```
+   int counter =0;
+while(counter<10){
+  if(counter == 5){
+    ++counter;
+    continue;
+  }
+  print('value: $counter');
+  counter++;
   
-  ---
+}
+```
+  
+---
+  ### 22-video
+  
+  
+---
 
 
 
